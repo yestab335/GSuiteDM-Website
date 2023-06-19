@@ -1,0 +1,50 @@
+.header {
+  padding-top: 2.8em;
+  padding-bottom: 4.8em;
+}
+
+.header a {
+  color: rgba(var(--color-text), 0.7);
+}
+
+.navbar-header {
+  padding: 0px;
+}
+
+.navbar-brand {
+  position: relative;
+  width: 60%;
+}
+
+.navbar-brand svg {
+  width: 100%;
+}
+
+/* Responsive */
+@media (min-width: 786px) {
+  .navbar-brand {
+    width: auto;
+  }
+
+  .navbar-brand svg {
+    width: 174px;
+    height: 32px;
+  }
+}
+
+.navbar-header .nav-item .nav-link {
+  border-radius: var(--bs-border-radius);
+  padding: 0.4em 1em;
+  transition: none;
+  text-decoration: none;
+}
+
+.navbar-header .nav-link:hover, .navbar-header .nav-link:active {
+  color: rgb(var(--color-text), 0.9);
+  background-color: rgba(var(--bs-secondary-rgb), 0.05);
+}
+
+.navbar-brand .btn-primary {
+  color: #fff !important;
+  font-weight: 700;
+}
