@@ -1,8 +1,8 @@
 import React from 'react';
-import './Navbar.css';
-import DropdownChrome from '../../assets/chrome.svg';
-import DropdownFirefox from '../../assets/firefox.svg';
-import DropdownOpera from '../../assets/opera.svg';
+import './NavbarStyles.css';
+import DropdownChrome from '../../assets/browsers/chrome.svg';
+import DropdownFirefox from '../../assets/browsers/firefox.svg';
+import DropdownOpera from '../../assets/browsers/opera.svg';
 
 const Navbar = () => {
   return (
