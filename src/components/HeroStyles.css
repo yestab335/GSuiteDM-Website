@@ -1,0 +1,132 @@
+@import url("../App.css");
+
+.hero {
+  margin-bottom: 6em;
+}
+
+.hero h1 {
+  margin-bottom: 0.2em;
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+
+.hero a:hover {
+  text-decoration: none;
+}
+
+.tagline {
+  padding-right: 4em;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+}
+
+.btn {
+  padding: 0.8em 1.2em;
+  border: 0px;
+  box-shadow: 0px 4px 6px #32325d1c, 1px 1px 3px #00000014;
+  transition: all 0.2 ease;
+  color: #fff !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background-color: hsl(var(--color-primary));
+  text-decoration: none !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: hsl(var(--color-primary-h) var(--color-primary-s) calc(var(--color-primary-l) + 10%)) !important;
+}
+
+.btn-primary:active {
+  background-color: hsl(var(--color-primary-h) var(--color-primary-s) calc(var(--color-primary-l) - 5%)) !important;
+}
+
+.hero-stats {
+  font-size: 0.8em;
+}
+
+.hero-stats p {
+  margin-bottom: 0.6em;
+}
+
+/* Browser Logo Section */
+.block-browsers {
+  font-size: 0.8em;
+}
+
+.block-browsers p {
+  margin-bottom: 0.6em;
+}
+
+.block-browsers ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.block-browsers li {
+  display: inline-block;
+  padding-right: 0.6em;
+  vertical-align: top;
+}
+
+.block-browsers li:last-of-type {
+  padding-right: 0px;
+}
+
+.block-browsers a {
+  position: relative;
+  top: 0px;
+  display: block;
+  width: 2.8em;
+  height: 2.8em;
+  background-size: contain;
+  opacity: 0.9;
+  transition: 0.1s all ease-in;
+}
+
+.block-browsers a:hover {
+  top: -2px;
+  opacity: 1;
+}
+
+.block-browsers a span {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* Google Chrome Browser */
+.browser-chrome {
+  background-image: url("../assets/browsers/chrome.svg");
+}
+
+/* Mozilla Firefox Browser */
+.browser-firefox {
+  background-image: url("../assets/browsers/firefox.svg");
+}
+
+/* Opera(GX) Browser */
+.browser-opera {
+  background-image: url("../assets/browsers/opera.svg");
+}
+
+/* Home Tools Section Attributes */
+.home-tools {
+  margin-bottom: 6em;
+  text-align: center;
+}
+
+.home-tools img {
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-bottom: 1em;
+}
