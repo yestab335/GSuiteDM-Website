@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroStyles.css";
-import GoogleDrive from "../assets/logos/drive.png"
+import GoogleDrive from "../assets/logos/drive.svg"
 import GoogleDocs from "../assets/logos/docs.png"
 import GoogleSlides from "../assets/logos/slides.png"
 import GoogleSheets from "../assets/logos/sheets.png"
@@ -12,14 +12,14 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
-              <h1>Write emails faster</h1>
+              <h1>Relieve eye-strain</h1>
               <p className="tagline">
-                Create text templates and insert them with shortcuts
+                Push a button and the theme changes from light to dark
               </p>
 
               {/* Button To Install Extension */}
               <a
-                href="https://chrome.google.com/webstore/detail/gsuitedm/obhgpfmjmefcllgmbipacahdhdkkafoc?hl=en&authuser=0"
+                href="https://tinyurl.com/chrome-webstore-gsuitedm"
                 target="_blank"
                 rel="noopener"
                 className="btn btn-primary btn-lg btn-install-extension js-install-extension"
@@ -84,7 +84,7 @@ const Hero = () => {
 
       <div className="container container-narrow content-main">
         <div className="home-tools">
-          <h2 className="mb-4">Insert templates in the tools you already use</h2>
+          <h2 className="mb-4">Works with the apps and tools you already use</h2>
 
           {/* Logo Images */}
           <img src={GoogleDrive} alt="Google Drive Logo" title="Google Drive" width={60} height={60} draggable={false} />
