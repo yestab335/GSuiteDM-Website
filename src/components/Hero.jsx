@@ -35,7 +35,7 @@ const Hero = () => {
                     <ul>
                       <li>
                         <a
-                          href="https://chrome.google.com/webstore/detail/gsuitedm/obhgpfmjmefcllgmbipacahdhdkkafoc?hl=en&authuser=0"
+                          href="https://tinyurl.com/chrome-webstore-gsuitedm"
                           target="_blank"
                           rel="noopener"
                           title="GSuiteDM for Chrome"
@@ -72,6 +72,11 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Image */}
+              <div className="col-lg-7 d-flex justify-content-end align-items-end">
+                <img src="#" alt="Image" />
+              </div>
             </div>
           </div>
         </div>
@@ -82,10 +87,10 @@ const Hero = () => {
           <h2 className="mb-4">Insert templates in the tools you already use</h2>
 
           {/* Logo Images */}
-          <img src={GoogleDrive} alt="Google Drive Logo" title="Google Drive" width="60px" height="60px" />
-          <img src={GoogleDocs} alt="Google Docs Logo" title="Google Docs" width="60px" height="60px" />
-          <img src={GoogleSlides} alt="Google Slides Logo" title="Google Slides" width="60px" height="60px" />
-          <img src={GoogleSheets} alt="Google Sheets Logo" title="Google Sheets" width="60px" height="60px" />
+          <img src={GoogleDrive} alt="Google Drive Logo" title="Google Drive" width={60} height={60} draggable={false} />
+          <img src={GoogleDocs} alt="Google Docs Logo" title="Google Docs" width={60} height={60} draggable={false} />
+          <img src={GoogleSlides} alt="Google Slides Logo" title="Google Slides" width={60} height={60} draggable={false} />
+          <img src={GoogleSheets} alt="Google Sheets Logo" title="Google Sheets" width={60} height={60} draggable={false} />
         </div>
       </div>
     </>
