@@ -12,6 +12,52 @@
   ![Website Preview](img/Website.png)
 </div>
 
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm start
+
+# test your changes
+$ npm test
+
+# generate static project
+$ npm run build
+```
+
+For detailed explanation on how things work, check out the [documentation](https://react.dev/).
+
+## Recommended VSCode Setup
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) `ext install dbaeumer.vscode-eslint`
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) `ext install esbenp.prettier-vscode`
+
+> `Ctrl(Cmd)` + `Shift` + `P` > Open Settings (JSON)
+
+```
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+}
+```
+
+## Special Directories
+
+### `assets`
+
+The assets directory contains your uncompiled assets such as images and/or fonts.
+
+### `components`
+
+The components directory contains your ReactJS components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+
+### `routes`
+
+Routes are a great help when you want to change between different pages of your web application. Make sure the `react-router-dom` is installed as a dependency.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
