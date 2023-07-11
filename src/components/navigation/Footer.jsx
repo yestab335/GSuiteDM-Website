@@ -58,8 +58,9 @@ const Footer = () => {
             <Link to='/' className="p-3 p-md-0">support@briskine.com</Link>
           </li>
 
-          {/* LinkedIn Logo */}
+          {/* Social Media Icons */}
           <li>
+            {/* LinkedIn Logo */}
             <Link to='/' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
               <img
                 src={LinkedIn}
@@ -69,10 +70,8 @@ const Footer = () => {
                 draggable={false}
               />
             </Link>
-          </li>
 
-          {/* Github Logo */}
-          <li>
+            {/* Github Logo */}
             <Link to='/' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
               <img
                 src={Github}
