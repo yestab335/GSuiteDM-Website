@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavbarStyles.css';
+import { Link } from 'react-router-dom';
 import LogoNormal from "../../assets/logo-regular.svg"
 import DropdownChrome from '../../assets/browsers/chrome.svg';
 import DropdownFirefox from '../../assets/browsers/firefox.svg';
@@ -11,9 +12,9 @@ const Navbar = () => {
       <div className="container">
         <nav className="navbar navbar-light navbar-expand-lg navbar-header">
           <div className="container-fluid p-0">
-            <a href="https://gsuitedm.netlify.app/" className="navbar-brand" aria-label="Home">
+            <Link to='/' className="navbar-brand" aria-label="Home">
               <img src={LogoNormal} width={245} height={45} draggable={false} alt="GSuiteDM Logo" />
-            </a>
+            </Link>
 
             <button className="navbar-toggler" type='button' data-bs-toggle='collapse' data-bs-target='#navbarContent' aria-controls='navbarToggleExternalContent' aria-expanded='true' aria-label='Toggle Navigation'>
               <span className="navbar-toggler-icon"></span>
@@ -22,42 +23,44 @@ const Navbar = () => {
             <div className="navbar-collapse collapse show" id="navbarContent">
               <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to='#' className="nav-link">
                     Help Center
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item dropdown dropdown-nav">
-                  <a href="#" className="nav-link dropdown-toggle" id="useCasesDropdown" role='button' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                  <Link to='#' className="nav-link dropdown-toggle" id="useCasesDropdown" role='button' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                     Download
-                  </a>
+                  </Link>
 
                   <div className="dropdown-menu" aria-labelledby="useCasesDropdown">
-                    <a className="dropdown-item" href="https://tinyurl.com/chrome-webstore-gsuitedm">
-                      <img src={DropdownChrome} draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
+                    <Link to='https://tinyurl.com/chrome-webstore-gsuitedm' target='_blank' className="dropdown-item">
+                      <img src={DropdownChrome} alt='Google Chrome Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
                       Download for Chrome
-                    </a>
-                    <a className="dropdown-item" href="https://www.briskine.com/linkedin-templates/">
-                    <img src={DropdownFirefox} draggable={false} className="dropdown-icon" aria-hidden="true" />
+                    </Link>
+
+                    <Link to='#' className="dropdown-item">
+                      <img src={DropdownFirefox} alt='Mozilla Firefox Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
                       Download for Firefox
-                    </a>
-                    <a className="dropdown-item" href="https://www.briskine.com/outlook-templates/">
-                    <img src={DropdownOpera} draggable={false} className="dropdown-icon" aria-hidden="true" />
+                    </Link>
+
+                    <Link to='#' className="dropdown-item">
+                      <img src={DropdownOpera} alt='Opera Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
                       Download for Opera
-                    </a>
+                    </Link>
                   </div>
                 </li>
 
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
-                    Blog
-                  </a>
+                  <Link to='/updates' className="nav-link">
+                    Updates
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to="#" className="nav-link">
                     Pricing
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

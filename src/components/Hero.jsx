@@ -1,9 +1,14 @@
 import React from "react";
 import "./HeroStyles.css";
+import { Link } from 'react-router-dom';
 import GoogleDrive from "../assets/logos/drive.svg"
 import GoogleDocs from "../assets/logos/docs.png"
 import GoogleSlides from "../assets/logos/slides.png"
 import GoogleSheets from "../assets/logos/sheets.png"
+import demoVideo from "../assets/demo.gif";
+
+// Extension Download Links
+var chromeWebStore = 'https://tinyurl.com/chrome-webstore-gsuitedm';
 
 const Hero = () => {
   return (
@@ -18,14 +23,9 @@ const Hero = () => {
               </p>
 
               {/* Button To Install Extension */}
-              <a
-                href="https://tinyurl.com/chrome-webstore-gsuitedm"
-                target="_blank"
-                rel="noopener"
-                className="btn btn-primary btn-lg btn-install-extension js-install-extension"
-              >
+              <Link to={chromeWebStore} target="_blank" rel="noopener" className="btn btn-primary btn-lg btn-install-extension js-install-extension">
                 Install free extension
-              </a>
+              </Link>
 
               <div className="mt-5 mb-4">
                 <div className="mb-4">
@@ -34,39 +34,21 @@ const Hero = () => {
 
                     <ul>
                       <li>
-                        <a
-                          href="https://tinyurl.com/chrome-webstore-gsuitedm"
-                          target="_blank"
-                          rel="noopener"
-                          title="GSuiteDM for Chrome"
-                          className="browser-chrome"
-                        >
+                        <Link to={chromeWebStore} target="_blank" rel="noopener" title="GSuiteDM for Chrome" className="browser-chrome">
                           <span>Google Chrome</span>
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a
-                          href="#FIREFOX STORE EXTENSION LINK HERE"
-                          target="_blank"
-                          rel="noopener"
-                          title="GSuiteDM for Firefox"
-                          className="browser-firefox"
-                        >
+                        <Link to='' target="_blank" rel="noopener" title="GSuiteDM for Firefox" className="browser-firefox">
                           <span>Mozilla Firefox</span>
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a
-                          href="#OPERA STORE EXTENSION LINK HERE"
-                          target="_blank"
-                          rel="noopener"
-                          title="GSuiteDM for Opera/GX"
-                          className="browser-opera"
-                        >
+                        <Link to='' target="_blank" rel="noopener" title="GSuiteDM for Opera/GX" className="browser-opera">
                           <span>Opera/GX</span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -75,7 +57,7 @@ const Hero = () => {
 
               {/* Image */}
               <div className="col-lg-7 d-flex justify-content-end align-items-end">
-                <img src="#" alt="Image" />
+                <img src={demoVideo} style={{ display: "flex" }} alt="Demo of GSuiteDM being used" />
               </div>
             </div>
           </div>

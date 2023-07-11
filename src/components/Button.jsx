@@ -1,19 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+// Extension Download Links
+var chromeWebStore = "https://tinyurl.com/chrome-webstore-gsuitedm";
 
 const Button = () => {
   return (
     <>
       <div className="container">
         <div className="text-center">
-          <a
-            href="#"
+          <Link
+            to={chromeWebStore}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary js-install-extension"
           >
             Add to <span className="js-browser-name">Chrome </span>
             <span className="fw-normal">It's free</span>
-          </a>
+          </Link>
 
           <div className="mt-4">
             <div className="block-browsers">
@@ -21,39 +25,39 @@ const Button = () => {
 
               <ul>
                 <li>
-                  <a
-                    href="https://tinyurl.com/chrome-webstore-gsuitedm"
+                  <Link
+                    to={chromeWebStore}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener"
                     title="GSuiteDM for Chrome"
                     className="browser-chrome"
                   >
                     <span>Google Chrome</span>
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#FIREFOX STORE EXTENSION LINK HERE"
+                  <Link
+                    to=""
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener"
                     title="GSuiteDM for Firefox"
                     className="browser-firefox"
                   >
                     <span>Mozilla Firefox</span>
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#OPERA STORE EXTENSION LINK HERE"
+                  <Link
+                    to=""
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener"
                     title="GSuiteDM for Opera/GX"
                     className="browser-opera"
                   >
                     <span>Opera/GX</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

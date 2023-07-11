@@ -1,8 +1,12 @@
 import React from "react";
 import "./FooterStyles.css";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo-regular.svg";
 import LinkedIn from "../../assets/linkedin.svg";
 import Github from "../../assets/github.svg";
+
+// Extension Download Links
+var chromeWebStore = "https://tinyurl.com/chrome-webstore-gsuitedm";
 
 const Footer = () => {
   return (
@@ -14,19 +18,19 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="https://tinyurl.com/chrome-webstore-gsuitedm" target="_blank" rel="noopener noreferrer">
+            <Link to={chromeWebStore} target="_blank" rel="noopener noreferrer">
               GSuiteDM for Chrome
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <Link to='' target="_blank" rel="noopener noreferrer">
               GSuiteDM for Firefox
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <Link to='' target="_blank" rel="noopener noreferrer">
               GSuiteDM for Opera/GX
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -36,13 +40,13 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#">Blog</a>
+            <Link to='/updates'>Updates</Link>
           </li>
           <li>
-            <a href="#">Privacy Policy</a>
+            <Link to='/'>Privacy Policy</Link>
           </li>
           <li>
-            <a href="#">Terms of Service</a>
+            <Link to='/'>Terms of Service</Link>
           </li>
         </ul>
 
@@ -51,19 +55,13 @@ const Footer = () => {
             <h5 className="footer-heading">Contact</h5>
           </li>
           <li>
-            <a href="#" className="p-3 p-md-0">
-              support@briskine.com
-            </a>
+            <Link to='/' className="p-3 p-md-0">support@briskine.com</Link>
           </li>
 
-          {/* LinkedIn Logo */}
+          {/* Social Media Icons */}
           <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 p-md-1"
-            >
+            {/* LinkedIn Logo */}
+            <Link to='/' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
               <img
                 src={LinkedIn}
                 width={15}
@@ -71,17 +69,10 @@ const Footer = () => {
                 alt="GSuiteDM on LinkedIn"
                 draggable={false}
               />
-            </a>
-          </li>
+            </Link>
 
-          {/* Github Logo */}
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 p-md-1"
-            >
+            {/* Github Logo */}
+            <Link to='/' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
               <img
                 src={Github}
                 width={17}
@@ -89,16 +80,16 @@ const Footer = () => {
                 alt="GSuiteDM on Github"
                 draggable={false}
               />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
 
       <div className="row footer-brand">
         <div className="col">
-          <a href="#" className="footer-logo" title="GSuiteDM">
+          <Link to='/' className="footer-logo" title="GSuiteDM">
             <img src={Logo} draggable={false} alt="GSuiteDM Logo" />
-          </a>
+          </Link>
         </div>
 
         {/* Copyright */}
