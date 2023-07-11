@@ -35,17 +35,17 @@ const Navbar = () => {
 
                   <div className="dropdown-menu" aria-labelledby="useCasesDropdown">
                     <Link to='https://tinyurl.com/chrome-webstore-gsuitedm' target='_blank' className="dropdown-item">
-                      <img src={DropdownChrome} draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
+                      <img src={DropdownChrome} alt='Google Chrome Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
                       Download for Chrome
                     </Link>
 
                     <Link to='#' className="dropdown-item">
-                      <img src={DropdownFirefox} draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
+                      <img src={DropdownFirefox} alt='Mozilla Firefox Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
                       Download for Firefox
                     </Link>
 
                     <Link to='#' className="dropdown-item">
-                      <img src={DropdownOpera} draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
+                      <img src={DropdownOpera} alt='Opera Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
                       Download for Opera
                     </Link>
                   </div>
