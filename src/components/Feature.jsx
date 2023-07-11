@@ -3,6 +3,9 @@ import "./FeatureStyles.css";
 import messageIcon from "../assets/message.svg";
 import graphUpIcon from "../assets/graph-up.svg";
 import usersIcon from "../assets/users.svg";
+import menuComparison from "../assets/feature/menus.jpg";
+import competitorComparison from "../assets/feature/comparison.png";
+import optionsMenu from "../assets/feature/optionsMenu.png";
 
 const Feature = () => {
   return (
@@ -22,8 +25,8 @@ const Feature = () => {
             </div>
 
             <h2>
-              Create custom &amp; <br />
-              personalized templates
+              Each aspect taken <br />
+              into consideration
             </h2>
             <p>
               Do you find yourself writing the same answers to common questions?
@@ -37,7 +40,13 @@ const Feature = () => {
 
           {/* Image */}
           <div className="col-md pt-md-4">
-            <img src="#" width={446} height={296} draggable={false} alt="" />
+            <img
+              src={menuComparison}
+              width={446}
+              height={296}
+              draggable={false}
+              alt=""
+            />
           </div>
         </div>
 
@@ -55,13 +64,13 @@ const Feature = () => {
             </div>
 
             <h2>
-              Insert templates quickly <br />
-              with keyboard shortcuts
+              Better than the <br />
+              leading competitor
             </h2>
             <p>
               Templates can be associated with a keyboard shortcut. To insert a
               template, you just need to type its shortcut and press
-              <strong>TAB</strong>
+              <strong> TAB</strong>
             </p>
             <p>
               Can&apos;t remember you shortcut? You can also insert them
@@ -72,11 +81,11 @@ const Feature = () => {
           {/* Image */}
           <div className="col-md d-flex">
             <img
-              src="#"
+              src={competitorComparison}
               loading={lazy}
               width={446}
               height={237}
-              alt=""
+              alt="Split screen comparison from the leading competitor and GSuiteDM"
               className="align-self-end"
             />
           </div>
@@ -86,17 +95,12 @@ const Feature = () => {
         <div className="row home-feature">
           <div className="col-md">
             <div className="icon-box">
-              <img 
-                src={usersIcon}
-                width={16}
-                height={16}
-                draggable={false}
-              />
+              <img src={usersIcon} width={16} height={16} draggable={false} />
             </div>
 
             <h2 className="content-section-heading">
-              Share templates with <br />
-              your team
+              Custom and easy <br />
+              options menu
             </h2>
             <p className="content-section-paragraph">
               Having team members writing the same responses is both time
@@ -107,13 +111,13 @@ const Feature = () => {
 
           {/* Image */}
           <div className="col-md">
-            <img 
-              src="#"
+            <img
+              src={optionsMenu}
               loading={lazy}
               width={446}
               height={297}
               draggable={false}
-              alt=""
+              alt="Extension Options Menu"
             />
           </div>
         </div>
