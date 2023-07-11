@@ -5,7 +5,7 @@ import Feature from '../components/Feature.jsx';
 import Button from '../components/Button.jsx';
 import Footer from '../components/navigation/Footer.jsx';
 
-function App() {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
