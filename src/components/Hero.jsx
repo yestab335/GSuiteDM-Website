@@ -5,6 +5,7 @@ import GoogleDrive from "../assets/logos/drive.svg"
 import GoogleDocs from "../assets/logos/docs.png"
 import GoogleSlides from "../assets/logos/slides.png"
 import GoogleSheets from "../assets/logos/sheets.png"
+import demoVideo from "../assets/demo.gif";
 
 // Extension Download Links
 var chromeWebStore = 'https://tinyurl.com/chrome-webstore-gsuitedm';
@@ -56,7 +57,7 @@ const Hero = () => {
 
               {/* Image */}
               <div className="col-lg-7 d-flex justify-content-end align-items-end">
-                <img src="#" alt="Image" />
+                <img src={demoVideo} style={{ display: "flex" }} alt="Demo of GSuiteDM being used" />
               </div>
             </div>
           </div>
