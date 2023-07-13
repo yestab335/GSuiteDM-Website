@@ -15,7 +15,7 @@ const Button = () => {
             rel="noopener noreferrer"
             className="btn btn-primary js-install-extension"
           >
-            Add to <span className="js-browser-name">Chrome </span>
+            Add to <span className="js-browser-name">Chrome{" "}</span>
             <span className="fw-normal">It's free</span>
           </Link>
 
