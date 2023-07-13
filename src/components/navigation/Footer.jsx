@@ -55,7 +55,7 @@ const Footer = () => {
             <h5 className="footer-heading">Contact</h5>
           </li>
           <li>
-            <Link to='/' className="p-3 p-md-0">support@briskine.com</Link>
+            <Link to='/' className="p-3 p-md-0">yestab335@gmail.com</Link>
           </li>
 
           {/* Social Media Icons */}
