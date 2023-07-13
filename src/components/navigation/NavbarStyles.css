@@ -357,3 +357,11 @@
   padding-right: 1em;
   vertical-align: top;
 }
+
+/* Page Theme Toggler Attributes */
+[type=button], button {
+  appearance: button;
+  -webkit-appearance: button;
+  background-color: initial;
+  background-image: none;
+}
