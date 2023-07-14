@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroStyles.css";
 import { Link } from 'react-router-dom';
+import Feature from '../components/Feature.jsx';
 import GoogleDrive from "../assets/logos/drive.svg"
 import GoogleDocs from "../assets/logos/docs.png"
 import GoogleSlides from "../assets/logos/slides.png"
@@ -77,6 +78,9 @@ const Hero = () => {
           <img src={GoogleSlides} alt="Google Slides Logo" title="Google Slides" width={60} height={60} draggable={false} />
           <img src={GoogleSheets} alt="Google Sheets Logo" title="Google Sheets" width={60} height={60} draggable={false} />
         </div>
+
+        {/* Feature Section Component */}
+        <Feature />
       </div>
     </>
   );
