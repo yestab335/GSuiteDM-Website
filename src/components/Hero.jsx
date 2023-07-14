@@ -57,7 +57,10 @@ const Hero = () => {
 
               {/* Image */}
               <div className="col-lg-7 d-flex justify-content-end align-items-end">
-                <img src={demoVideo} style={{ display: "flex" }} alt="Demo of GSuiteDM being used" />
+                {/* Demo Video Container */}
+                <div className="video-demo video-demo-visible" aria-hidden={true} style={{ display: "flex" }}>
+                  <img src={demoVideo} alt="Demo of GSuiteDM being used" />
+                </div>
               </div>
             </div>
           </div>
