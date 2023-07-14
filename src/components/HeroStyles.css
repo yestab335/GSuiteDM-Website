@@ -1,3 +1,5 @@
+@import url("../App.css");
+
 .hero {
   margin-bottom: 6em;
 }
@@ -31,6 +33,7 @@
 
 .btn:hover {
   transform: translateY(-1px);
+  transition: all 0.05s ease-in-out;
 }
 
 .btn-primary {
@@ -115,6 +118,34 @@
 /* Opera(GX) Browser */
 .browser-opera {
   background-image: url("../assets/browsers/opera.svg");
+}
+
+/* Demo Video Attributes */
+.video-demo-visible {
+  display: flex;
+  opacity: 1;
+  box-shadow: 0px 8px 8px #00000003;
+}
+
+.video-demo {
+  --border-radius-demo: 5px;
+  --border-radius-inner: calc(var(--border-radius-demo) - 1px);
+  --gray: 243, 243, 243;
+  display: none;
+  opacity: 0;
+  transform: translateY(5%);
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.17, 1.56, 0.72, 1.54);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  max-width: 550px;
+  flex-direction: column;
+  padding: 3px;
+  background-color: rgba(var(--gray), 0.5);
+  border-radius: var(--border-radius-demo);
+  pointer-events: none;
 }
 
 /* Home Tools Section Attributes */
