@@ -1,4 +1,3 @@
-import '../App.css';
 import Navbar from '../components/navigation/Navbar.jsx';
 import Hero from '../components/Hero.jsx';
 import Feature from '../components/Feature.jsx';

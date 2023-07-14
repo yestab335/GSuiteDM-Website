@@ -1,5 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+
+// Lottie For Animation Gif
+import Lottie from "lottie-react";
+import errorAnimation from "../assets/errorAnimation.json";
 
 // Styles
 const Styles = {
@@ -10,20 +14,24 @@ const Styles = {
     position: "absolute",
     top: "50%",
     left: "50%",
-    transform: "translate(-50%, -50%)"
-  }
-}
+    transform: "translate(-50%, -50%)",
+  },
+};
 
 const PageNotFound = () => {
   return (
     <>
       <div style={Styles.center}>
-        <h1>Error 404</h1>
-        <p>Page Not Found</p>
-        <Link to='/' role='button'>Return to the home page</Link>
+        <Lottie
+          loop={true}
+          animationData={errorAnimation}
+        />
+        <Link to="/" role="button" className="btn btn-primary">
+          Return to home page
+        </Link>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PageNotFound
+export default PageNotFound;
