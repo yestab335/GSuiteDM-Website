@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 // Lottie For Animation Gif
 import Lottie from "lottie-react";
 import errorAnimation from "../assets/errorAnimation.json";
