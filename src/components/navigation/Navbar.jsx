@@ -67,11 +67,11 @@ const Navbar = () => {
           </div>
 
           {/* Page Theme Toggler */}
-          <select id="theme">
+          {/* <select id="theme">
             <option value="light">Light</option>
             <option value="dark">Dark</option>
             <option value="system">System</option>
-          </select>
+          </select> */}
         </nav>
       </div>
     </header>
