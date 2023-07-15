@@ -72,7 +72,7 @@ const Footer = () => {
             </Link>
 
             {/* Github Logo */}
-            <Link to='/' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
+            <Link to='https://tinyurl.com/gsuitedm' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
               <img
                 src={Github}
                 width={17}
