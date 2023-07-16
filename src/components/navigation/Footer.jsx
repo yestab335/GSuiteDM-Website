@@ -2,6 +2,7 @@ import React from "react";
 import "./FooterStyles.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo-regular.svg";
+import LogoDark from "../../assets/logo-dark-mode.svg";
 import LinkedIn from "../../assets/linkedin.svg";
 import Github from "../../assets/github.svg";
 
@@ -88,7 +89,10 @@ const Footer = () => {
       <div className="row footer-brand">
         <div className="col">
           <Link to='/' className="footer-logo" title="GSuiteDM">
-            <img src={Logo} draggable={false} alt="GSuiteDM Logo" />
+            <picture>
+              <source srcSet={LogoDark} media="(prefers-color-scheme: dark)" draggable={false} alt="GSuiteDM Logo"></source>
+              <img src={Logo} draggable={false} alt="GSuiteDM Logo" />
+            </picture>
           </Link>
         </div>
 

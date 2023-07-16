@@ -1,7 +1,8 @@
 import React from 'react';
 import './NavbarStyles.css';
 import { Link } from 'react-router-dom';
-import LogoNormal from "../../assets/logo-regular.svg"
+import LogoNormal from "../../assets/logo-regular.svg";
+import LogoDark from "../../assets/logo-dark-mode.svg";
 import DropdownChrome from '../../assets/browsers/chrome.svg';
 import DropdownFirefox from '../../assets/browsers/firefox.svg';
 import DropdownOpera from '../../assets/browsers/opera.svg';
@@ -13,7 +14,10 @@ const Navbar = () => {
         <nav className="navbar navbar-light navbar-expand-lg navbar-header">
           <div className="container-fluid p-0">
             <Link to='/' className="navbar-brand" aria-label="Home">
-              <img src={LogoNormal} width={245} height={45} draggable={false} alt="GSuiteDM Logo" />
+              <picture>
+                <source srcSet={LogoDark} media="(prefers-color-scheme: dark)" width={245} height={45} draggable={false} alt="GSuiteDM Logo"></source>
+                <img src={LogoNormal} width={245} height={45} draggable={false} alt="GSuiteDM Logo" />
+              </picture>
             </Link>
 
             <button className="navbar-toggler" type='button' data-bs-toggle='collapse' data-bs-target='#navbarContent' aria-controls='navbarToggleExternalContent' aria-expanded='true' aria-label='Toggle Navigation'>
