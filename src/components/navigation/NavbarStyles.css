@@ -365,3 +365,32 @@
   background-color: initial;
   background-image: none;
 }
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  .header a {
+    color: #e4e4e4;
+  }
+
+  .navbar-header .nav-link:hover, .navbar-header .nav-item:active {
+    color: #e4e4e4;
+    background-color: grey;
+  }
+
+  button.navbar-toggler {
+    border-color: #e4e4e4;
+  }
+  
+  .navbar-toggler-icon {
+    border-color: #e4e4e4;
+    background-color: #e4e4e4;
+  }
+
+  .dropdown-nav:hover, .dropdown-nav:active {
+    color: #e4e4e4;
+  }
+
+  .dropdown-nav .dropdown-item, .dropdown-nav .dropdown-menu, .dropdown-menu.show {
+    background-color: #222;
+  }
+}
