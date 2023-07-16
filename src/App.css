@@ -1756,3 +1756,34 @@ a:hover {
   background-color: #e4e4e4;
   background-color: #252525;
 } */
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  /* Color Variables */
+  :root {
+    --scrollbar-thumb-color: #757575;
+    --scrollbar-track-color: #2e2e2e;
+    --body-background-color: #252525;
+    --text-color: #e4e4e4;
+  }
+
+  /* Webkit And Chromium Browser Scrollbar Attributes */
+  ::-webkit-scrollbar {
+    background-color: var(--scrollbar-track-color);
+    width: 8px;
+    height: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color);
+    border-radius: 8px;
+  }
+  
+  body {
+    background: var(--body-background-color);
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span {
+    color: var(--text-color);
+  }
+}
