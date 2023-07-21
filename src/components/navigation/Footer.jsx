@@ -1,15 +1,15 @@
 import React from "react";
-import "./FooterStyles.css";
+import "../../styles/FooterStyles.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo-regular.svg";
 import LogoDark from "../../assets/logo-dark-mode.svg";
 import LinkedIn from "../../assets/linkedin.svg";
 import Github from "../../assets/github.svg";
 
-// Extension Download Links
-var chromeWebStore = "https://tinyurl.com/chrome-webstore-gsuitedm";
-
 const Footer = () => {
+  // Extension Download Links
+  var chromeWebStore = "https://tinyurl.com/chrome-webstore-gsuitedm";
+  
   return (
     <footer className="footer container container-narrow">
       <div className="footer-menu d-md-flex">
@@ -62,7 +62,7 @@ const Footer = () => {
           {/* Social Media Icons */}
           <li>
             {/* LinkedIn Logo */}
-            <Link to='/' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
+            <Link to='https://www.linkedin.com/in/yasser-tabora/' target="_blank" rel="noopener noreferrer" className="p-3 p-md-1">
               <img
                 src={LinkedIn}
                 width={15}

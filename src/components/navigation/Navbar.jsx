@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavbarStyles.css';
+import '../../styles/NavbarStyles.css';
 import { Link } from 'react-router-dom';
 import LogoNormal from "../../assets/logo-regular.svg";
 import LogoDark from "../../assets/logo-dark-mode.svg";
@@ -39,17 +39,17 @@ const Navbar = () => {
 
                   <div className="dropdown-menu" aria-labelledby="useCasesDropdown">
                     <Link to='https://tinyurl.com/chrome-webstore-gsuitedm' target='_blank' className="dropdown-item">
-                      <img src={DropdownChrome} alt='Google Chrome Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
+                      <img src={DropdownChrome} alt='Google Chrome Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="false" />
                       Download for Chrome
                     </Link>
 
                     <Link to='#' className="dropdown-item">
-                      <img src={DropdownFirefox} alt='Mozilla Firefox Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
+                      <img src={DropdownFirefox} alt='Mozilla Firefox Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="false" />
                       Download for Firefox
                     </Link>
 
                     <Link to='#' className="dropdown-item">
-                      <img src={DropdownOpera} alt='Opera Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="true" />
+                      <img src={DropdownOpera} alt='Opera Browser Icon' draggable={false} className="dropdown-icon" target='_blank' aria-hidden="false" />
                       Download for Opera
                     </Link>
                   </div>

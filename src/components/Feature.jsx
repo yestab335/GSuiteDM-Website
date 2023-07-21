@@ -1,6 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "./FeatureStyles.css";
+import "../styles/FeatureStyles.css";
 import messageIcon from "../assets/message.svg";
 import graphUpIcon from "../assets/graph-up.svg";
 import usersIcon from "../assets/users.svg";
