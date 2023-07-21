@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeroStyles.css";
+import "../styles/HeroStyles.css";
 import { Link } from 'react-router-dom';
 import Feature from '../components/Feature.jsx';
 import GoogleDrive from "../assets/logos/drive.svg"
@@ -8,10 +8,10 @@ import GoogleSlides from "../assets/logos/slides.png"
 import GoogleSheets from "../assets/logos/sheets.png"
 import demoVideo from "../assets/demo.gif";
 
-// Extension Download Links
-var chromeWebStore = 'https://tinyurl.com/chrome-webstore-gsuitedm';
-
 const Hero = () => {
+  // Extension Download Links
+  var chromeWebStore = 'https://tinyurl.com/chrome-webstore-gsuitedm';
+
   return (
     <>
       <div className="hero pb-5 pb-lg-0">
