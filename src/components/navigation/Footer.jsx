@@ -6,10 +6,10 @@ import LogoDark from "../../assets/logo-dark-mode.svg";
 import LinkedIn from "../../assets/linkedin.svg";
 import Github from "../../assets/github.svg";
 
-// Extension Download Links
-var chromeWebStore = "https://tinyurl.com/chrome-webstore-gsuitedm";
-
 const Footer = () => {
+  // Extension Download Links
+  var chromeWebStore = "https://tinyurl.com/chrome-webstore-gsuitedm";
+  
   return (
     <footer className="footer container container-narrow">
       <div className="footer-menu d-md-flex">
