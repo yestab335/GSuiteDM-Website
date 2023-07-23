@@ -1765,6 +1765,7 @@ a:hover {
     --scrollbar-track-color: #2e2e2e;
     --body-background-color: #252525;
     --text-color: #e4e4e4;
+    --dark-mode-link-color: #8ab4f8;
   }
 
   /* Webkit And Chromium Browser Scrollbar Attributes */
@@ -1783,7 +1784,11 @@ a:hover {
     background: var(--body-background-color);
   }
 
-  h1, h2, h3, h4, h5, h6, p, span {
+  h1, h2, h3, h4, h5, h6, p, span, li {
     color: var(--text-color);
+  }
+
+  a {
+    color: var(--dark-mode-link-color);
   }
 }
