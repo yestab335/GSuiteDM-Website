@@ -1784,6 +1784,10 @@ a:hover {
     background: var(--body-background-color);
   }
 
+  hr {
+    color: rgba(228, 228, 228, 1);
+  }
+
   h1, h2, h3, h4, h5, h6, p, span, li {
     color: var(--text-color);
   }
