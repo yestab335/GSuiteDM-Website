@@ -1,3 +1,6 @@
+import Link from "next/link"
+import Logo from "./Logo"
+
 export default function Footer() {
   return (
     <footer>
@@ -19,19 +22,19 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
               </li>
             </ul>
           </div>
@@ -41,19 +44,19 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</Link>
               </li>
             </ul>
           </div>
@@ -63,19 +66,19 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About Us</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company Values</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
               </li>
             </ul>
           </div>
@@ -109,6 +112,7 @@ export default function Footer() {
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
           {/* Social Links */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            {/* Twitter */}
             <li>
               <a href="#0" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
                 <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -116,6 +120,8 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
+
+            {/* GitHub */}
             <li className="ml-4">
               <a href="#0" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Github">
                 <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -123,6 +129,8 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
+
+            {/* Facebook */}
             <li className="ml-4">
               <a href="#0" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook">
                 <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
