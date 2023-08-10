@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Logo from '../Logo.png'
+import MobileMenu from './MobileMenu'
 
 export default function Navbar() {
   const [top, setTop] = useState<boolean>(true)
@@ -14,6 +15,7 @@ export default function Navbar() {
   useEffect(() => {
     scrollHandler()
     window.addEventListener('scroll', scrollHandler)
+    return () => window.removeEventListener('scroll', scrollHandler)
   }, [top])
 
   return (
