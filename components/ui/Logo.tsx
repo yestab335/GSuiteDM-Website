@@ -5,7 +5,7 @@ import LogoImage from "@/public/images/original.png"
 export default function Logo() {
   return (
     <Link href="/" className="block" aria-label="GSuiteDM">
-      <Image src={LogoImage} alt="GSuiteDM Logo" height={32} width={32}></Image>
+      <Image src={LogoImage} alt="GSuiteDM Logo" height={32} width={32} />
     </Link>
   )
 }
