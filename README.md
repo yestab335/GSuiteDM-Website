@@ -43,17 +43,17 @@ For detailed explanation on how things work, check out the [documentation](https
 
 ## Special Directories
 
-### `assets`
+### `public`
 
-The assets directory contains your uncompiled assets such as images and/or fonts.
+The public directory contains your uncompiled assets such as images and/or fonts.
 
 ### `components`
 
-The components directory contains your ReactJS components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+The components directory contains your NextJS components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
-### `routes`
+### `app`
 
-Routes are a great help when you want to change between different pages of your web application. Make sure the `react-router-dom` is installed as a dependency.
+The app directory is the main directory for your Next.js application. It contains all of the code that is necessary to run your application, including the pages, components, and styles.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
