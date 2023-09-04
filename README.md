@@ -9,7 +9,7 @@
   | :warning: | **gsuitedm.netlify.app's code is in the dev branch. Commits to the main branch will be ignored.** <br> | &nbsp;&nbsp;&nbsp;&nbsp;[CONTRIBUTE](#)&nbsp;&nbsp;&nbsp;&nbsp; |
   | --------- | :--------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 
-  ![Website Preview](img/Website.png)
+  ![Website Preview](public/images/Website.png)
 </div>
 
 ## Build Setup
