@@ -108,7 +108,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={Menus} width={500} height={462} alt="Display of the browser extension's options menu" />
+                      <Image className="md:max-w-none mx-auto rounded" src={Menus} width={500} height={462} alt="Display of the browser extension's options menu" draggable={false} />
                     </div>
                   </Transition>
 
@@ -127,7 +127,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={Comparison} width={500} height={462} alt="Split screen comparison from the leading competitor and GSuiteDM" />
+                      <Image className="md:max-w-none mx-auto rounded" src={Comparison} width={500} height={462} alt="Split screen comparison from the leading competitor and GSuiteDM" draggable={false} />
                     </div>
                   </Transition>
 
@@ -146,7 +146,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={OptionsMenu} width={500} height={462} alt="Extension options menu" />
+                      <Image className="md:max-w-none mx-auto rounded" src={OptionsMenu} width={500} height={462} alt="Extension options menu" draggable={false} />
                     </div>
                   </Transition>
                 </div>
