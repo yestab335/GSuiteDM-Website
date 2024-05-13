@@ -25,9 +25,6 @@ export default function Footer() {
               <li className="mb-2">
                 <Link href="/gsuite" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">GSuiteDM</Link>
               </li>
-              {/* <li className="mb-2">
-                <Link href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Smooth Cursor for Google Docs</Link>
-              </li> */}
             </ul>
           </div>
 
@@ -36,13 +33,16 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="/docs" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
+                <Link href="/docs" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
               </li>
               <li className="mb-2">
-                <a href="/tutorials" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</a>
+                <Link href="/tutorials" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
               </li>
               <li className="mb-2">
-                <a href="/support" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</a>
+                <Link href="/support" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/updatelog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Updates</Link>
               </li>
             </ul>
           </div>
