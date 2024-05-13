@@ -1,3 +1,5 @@
+"use client"
+import "@/styles/PrivacyPolicyStyles.css"
 import Link from "next/link"
 
 export default function Terms() {
@@ -149,75 +151,77 @@ export default function Terms() {
               Your permission to use the Site is conditioned upon the following
               use, posting and conduct restrictions: You agree that you will not
               under any circumstances:
-              <ul className={"list-disc list-inside"}>
-                <li>
-                  access the Service for any reason other than your personal,
-                  non-commercial use solely as permitted by the normal
-                  functionality of the Service,
-                </li>
-                <li>
-                  collect or harvest any personal data of any user of the Site
-                  or the Service
-                </li>
-                <li>
-                  use the Site or the Service for the solicitation of business
-                  in the course of trade or in connection with a commercial
-                  enterprise;
-                </li>
-                <li>
-                  distribute any part or parts of the Site or the Service
-                  without our explicit written permission (we grant the
-                  operators of public search engines permission to use spiders
-                  to copy materials from the site for the sole purpose of
-                  creating publicly-available searchable indices but retain the
-                  right to revoke this permission at any time on a general or
-                  specific basis);
-                </li>
-                <li>
-                  use the Service for any unlawful purpose or for the promotion
-                  of illegal activities;
-                </li>
-                <li>
-                  attempt to, or harass, abuse or harm another person or group;
-                </li>
-                <li>use another user&apos;s account without permission;</li>
-                <li>
-                  intentionally allow another user to access your account;
-                </li>
-                <li>
-                  provide false or inaccurate information when registering an
-                  account;
-                </li>
-                <li>
-                  interfere or attempt to interfere with the proper functioning
-                  of the Service;
-                </li>
-                <li>
-                  make any automated use of the Site, the Service or the related
-                  systems, or take any action that we deem to impose or to
-                  potentially impose an unreasonable or disproportionately large
-                  load on our servers or network infrastructure;
-                </li>
-                <li>
-                  bypass any robot exclusion headers or other measures we take
-                  to restrict access to the Service, or use any software,
-                  technology, or device to scrape, spider, or crawl the Service
-                  or harvest or manipulate data;{" "}
-                </li>
-                <li>
-                  circumvent, disable or otherwise interfere with any
-                  security-related features of the Service or features that
-                  prevent or restrict use or copying of content, or enforce
-                  limitations on use of the Service or the content accessible
-                  via the Service; or{" "}
-                </li>
-                <li>
-                  publish or link to malicious content of any sort, including
-                  that intended to damage or disrupt another user&apos;s browser
-                  or computer.
-                </li>
-              </ul>
             </p>
+            <ul
+              className={"text-xl text-gray-600 mb-8 list-decimal list-inside"}
+              data-aos="zoom-y-out"
+              data-aos-delay="150"
+            >
+              <li>
+                access the Service for any reason other than your personal,
+                non-commercial use solely as permitted by the normal
+                functionality of the Service,
+              </li>
+              <li>
+                collect or harvest any personal data of any user of the Site or
+                the Service
+              </li>
+              <li>
+                use the Site or the Service for the solicitation of business in
+                the course of trade or in connection with a commercial
+                enterprise;
+              </li>
+              <li>
+                distribute any part or parts of the Site or the Service without
+                our explicit written permission (we grant the operators of
+                public search engines permission to use spiders to copy
+                materials from the site for the sole purpose of creating
+                publicly-available searchable indices but retain the right to
+                revoke this permission at any time on a general or specific
+                basis);
+              </li>
+              <li>
+                use the Service for any unlawful purpose or for the promotion of
+                illegal activities;
+              </li>
+              <li>
+                attempt to, or harass, abuse or harm another person or group;
+              </li>
+              <li>use another user&apos;s account without permission;</li>
+              <li>intentionally allow another user to access your account;</li>
+              <li>
+                provide false or inaccurate information when registering an
+                account;
+              </li>
+              <li>
+                interfere or attempt to interfere with the proper functioning of
+                the Service;
+              </li>
+              <li>
+                make any automated use of the Site, the Service or the related
+                systems, or take any action that we deem to impose or to
+                potentially impose an unreasonable or disproportionately large
+                load on our servers or network infrastructure;
+              </li>
+              <li>
+                bypass any robot exclusion headers or other measures we take to
+                restrict access to the Service, or use any software, technology,
+                or device to scrape, spider, or crawl the Service or harvest or
+                manipulate data;{" "}
+              </li>
+              <li>
+                circumvent, disable or otherwise interfere with any
+                security-related features of the Service or features that
+                prevent or restrict use or copying of content, or enforce
+                limitations on use of the Service or the content accessible via
+                the Service; or{" "}
+              </li>
+              <li>
+                publish or link to malicious content of any sort, including that
+                intended to damage or disrupt another user&apos;s browser or
+                computer.
+              </li>
+            </ul>
 
             <p
               className="text-xl text-gray-600 font-bold mb-8"
@@ -264,54 +268,56 @@ export default function Terms() {
             >
               By transmitting and submitting any User Content while using the
               Service, you agree as follows:
-              <ul className={"list-disc list-inside"}>
-                <li>
-                  You are solely responsible for your account and the activity
-                  that occurs while signed in to or while using your account;
-                </li>
-                <li>
-                  You will not post information that is malicious, libelous,
-                  false or inaccurate;
-                </li>
-                <li>
-                  You will not post any information that is abusive,
-                  threatening, obscene, defamatory, libelous, or racially,
-                  sexually, religiously, or otherwise objectionable and
-                  offensive;
-                </li>
-                <li>
-                  You retain all ownership rights in your User Content but you
-                  are required to grant the following rights to the Site and to
-                  users of the Service as set forth more fully under the
-                  “License Grant” and “Intellectual Property” provisions below:
-                  When you upload or post User Content to the Site or the
-                  Service, you grant to the Site a worldwide, non-exclusive,
-                  royalty-free, transferable license to use, reproduce,
-                  distribute, prepare derivative works of, display, and perform
-                  that Content in connection with the provision of the Service;
-                  and you grant to each user of the Service, a worldwide,
-                  non-exclusive, royalty-free license to access your User
-                  Content through the Service, and to use, reproduce,
-                  distribute, prepare derivative works of, display and perform
-                  such Content to the extent permitted by the Service and under
-                  these Terms of Use;
-                </li>
-                <li>
-                  You will not submit content that is copyrighted or subject to
-                  third party proprietary rights, including privacy, publicity,
-                  trade secret, or others, unless you are the owner of such
-                  rights or have the appropriate permission from their rightful
-                  owner to specifically submit such content; and
-                </li>
-                <li>
-                  You hereby agree that we have the right to determine whether
-                  your User Content submissions are appropriate and comply with
-                  these Terms of Service, remove any and/or all of your
-                  submissions, and terminate your account with or without prior
-                  notice.
-                </li>
-              </ul>
             </p>
+            <ul
+              className={"text-xl text-gray-600 mb-8 list-decimal list-inside"}
+              data-aos="zoom-y-out"
+              data-aos-delay="150"
+            >
+              <li>
+                You are solely responsible for your account and the activity
+                that occurs while signed in to or while using your account;
+              </li>
+              <li>
+                You will not post information that is malicious, libelous, false
+                or inaccurate;
+              </li>
+              <li>
+                You will not post any information that is abusive, threatening,
+                obscene, defamatory, libelous, or racially, sexually,
+                religiously, or otherwise objectionable and offensive;
+              </li>
+              <li>
+                You retain all ownership rights in your User Content but you are
+                required to grant the following rights to the Site and to users
+                of the Service as set forth more fully under the “License Grant”
+                and “Intellectual Property” provisions below: When you upload or
+                post User Content to the Site or the Service, you grant to the
+                Site a worldwide, non-exclusive, royalty-free, transferable
+                license to use, reproduce, distribute, prepare derivative works
+                of, display, and perform that Content in connection with the
+                provision of the Service; and you grant to each user of the
+                Service, a worldwide, non-exclusive, royalty-free license to
+                access your User Content through the Service, and to use,
+                reproduce, distribute, prepare derivative works of, display and
+                perform such Content to the extent permitted by the Service and
+                under these Terms of Use;
+              </li>
+              <li>
+                You will not submit content that is copyrighted or subject to
+                third party proprietary rights, including privacy, publicity,
+                trade secret, or others, unless you are the owner of such rights
+                or have the appropriate permission from their rightful owner to
+                specifically submit such content; and
+              </li>
+              <li>
+                You hereby agree that we have the right to determine whether
+                your User Content submissions are appropriate and comply with
+                these Terms of Service, remove any and/or all of your
+                submissions, and terminate your account with or without prior
+                notice.
+              </li>
+            </ul>
             <p
               className="text-xl text-gray-600 mb-8"
               data-aos="zoom-y-out"
@@ -476,42 +482,46 @@ export default function Terms() {
               submit a notification pursuant to the Digital Millennium Copyright
               Act (see 17 U.S.C 512) (“DMCA”) by sending the following
               information in writing to the our designated copyright agent:
-              <ol className={"list-decimal list-inside"}>
-                <li>The date of your notification;</li>
-                <li>
-                  A physical or electronic signature of a person authorized to
-                  act on behalf of the owner of an exclusive right that is
-                  allegedly infringed;
-                </li>
-                <li>
-                  A description of the copyrighted work claimed to have been
-                  infringed, or, if multiple copyrighted works at a single
-                  online site are covered by a single notification, a
-                  representative list of such works at that site;
-                </li>
-                <li>
-                  A description of the material that is claimed to be infringing
-                  or to be the subject of infringing activity and information
-                  sufficient to enable us to locate such work;
-                </li>
-                <li>
-                  Information reasonably sufficient to permit the service
-                  provider to contact you, such as an address, telephone number,
-                  and/or email address;
-                </li>
-                <li>
-                  A statement that you have a good faith belief that use of the
-                  material in the manner complained of is not authorized by the
-                  copyright owner, its agent, or the law; and
-                </li>
-                <li>
-                  A statement that the information in the notification is
-                  accurate, and under penalty of perjury, that you are
-                  authorized to act on behalf of the owner of an exclusive right
-                  that is allegedly infringed.
-                </li>
-              </ol>
             </p>
+            <ol
+              className={"text-xl text-gray-600 mb-8 list-decimal list-inside"}
+              data-aos="zoom-y-out"
+              data-aos-delay="150"
+            >
+              <li>The date of your notification;</li>
+              <li>
+                A physical or electronic signature of a person authorized to act
+                on behalf of the owner of an exclusive right that is allegedly
+                infringed;
+              </li>
+              <li>
+                A description of the copyrighted work claimed to have been
+                infringed, or, if multiple copyrighted works at a single online
+                site are covered by a single notification, a representative list
+                of such works at that site;
+              </li>
+              <li>
+                A description of the material that is claimed to be infringing
+                or to be the subject of infringing activity and information
+                sufficient to enable us to locate such work;
+              </li>
+              <li>
+                Information reasonably sufficient to permit the service provider
+                to contact you, such as an address, telephone number, and/or
+                email address;
+              </li>
+              <li>
+                A statement that you have a good faith belief that use of the
+                material in the manner complained of is not authorized by the
+                copyright owner, its agent, or the law; and
+              </li>
+              <li>
+                A statement that the information in the notification is
+                accurate, and under penalty of perjury, that you are authorized
+                to act on behalf of the owner of an exclusive right that is
+                allegedly infringed.
+              </li>
+            </ol>
             <p
               className="text-xl text-gray-600 mb-8"
               data-aos="zoom-y-out"
