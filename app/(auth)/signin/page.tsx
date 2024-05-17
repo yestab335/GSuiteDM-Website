@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import "@/styles/dark.css"
 
 export const metadata = {
   title: 'Sign In - GSuiteDM',
@@ -7,12 +8,12 @@ export const metadata = {
 
 export default function SignIn() {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-white">
+    <section className="bg-gradient-to-b !from-gray-100 !to-white darkMode">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          {/* Page Header */}
+          {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome back. We exist to make your eyes relaxed without strain.</h1>
+            <h1 className="h1 dark:text-white">Welcome back. We exist to make your eyes relaxed without strain.</h1>
           </div>
 
           {/* Form */}
@@ -20,14 +21,14 @@ export default function SignIn() {
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="email">Email</label>
+                  <label className="block text-gray-800 text-sm font-medium mb-1 dark:text-white" htmlFor="email">Email</label>
                   <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="Enter your email address" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <div className="flex justify-between">
-                    <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="password">Password</label>
+                    <label className="block text-gray-800 text-sm font-medium mb-1 dark:text-white" htmlFor="password">Password</label>
                     <Link href="/reset-password" className="text-sm font-medium text-blue-600 hover:underline">Having trouble signing in?</Link>
                   </div>
                   <input id="password" type="password" className="form-input w-full text-gray-800" placeholder="Enter your password" required />
@@ -38,7 +39,7 @@ export default function SignIn() {
                   <div className="flex justify-between">
                     <label className="flex items-center">
                       <input type="checkbox" className="form-checkbox" />
-                      <span className="text-gray-600 ml-2">Keep me signed in</span>
+                      <span className="text-gray-600 ml-2 dark:text-white">Keep me signed in</span>
                     </label>
                   </div>
                 </div>
@@ -51,7 +52,7 @@ export default function SignIn() {
             </form>
             <div className="flex items-center my-6">
               <div className="border-t border-gray-300 grow mr-3" aria-hidden="true"></div>
-              <div className="text-gray-600 italic">Or</div>
+              <div className="text-gray-600 italic dark:text-white">Or</div>
               <div className="border-t border-gray-300 grow ml-3" aria-hidden="true"></div>
             </div>
             <form>
@@ -76,7 +77,7 @@ export default function SignIn() {
                 </div>
               </div>
             </form>
-            <div className="text-gray-600 text-center mt-6">
+            <div className="text-gray-600 text-center mt-6 dark:text-white">
               Don't you have an account? <Link href="/signup" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign up</Link>
             </div>
           </div>
