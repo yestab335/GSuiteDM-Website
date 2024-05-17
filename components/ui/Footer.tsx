@@ -3,73 +3,73 @@ import Logo from './Logo'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className='dark:bg-black-600'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Top Area: Blocks */}
+        {/* Top area: blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
 
-          {/* 1st Block */}
+          {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              <Link href="/terms" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+              <Link href="/terms" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Terms</Link> · <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Privacy Policy</Link>
             </div>
           </div>
 
-          {/* 2nd Block */}
+          {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-white">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link href="/gsuite" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">GSuiteDM</Link>
+                <Link href="/gsuite" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">GSuiteDM</Link>
               </li>
             </ul>
           </div>
 
-          {/* 3rd Block */}
+          {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-white">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link href="/docs" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
+                <Link href="/docs" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Documentation</Link>
               </li>
               <li className="mb-2">
-                <Link href="/tutorials" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
+                <Link href="/tutorials" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Tutorials & Guides</Link>
               </li>
               <li className="mb-2">
-                <Link href="/support" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</Link>
+                <Link href="/support" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Support Center</Link>
               </li>
               <li className="mb-2">
-                <Link href="/updatelog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Updates</Link>
+                <Link href="/updatelog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Updates</Link>
               </li>
             </ul>
           </div>
 
-          {/* 4th Block */}
+          {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-white">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</Link>
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Home</Link>
               </li>
               <li className="mb-2">
-                <Link href="/about-us" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</Link>
+                <Link href="/about-us" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">About us</Link>
               </li>
               <li className="mb-2">
-                <Link href="/terms" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Terms</Link>
+                <Link href="/terms" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Terms</Link>
               </li>
               <li className="mb-2">
-                <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
+                <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out dark:text-white hover:text-white hover:underline">Privacy Policy</Link>
               </li>
             </ul>
           </div>
 
-          {/* 5th Block */}
+          {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every update.</p>
+            <h6 className="text-gray-800 font-medium mb-2 dark:text-white">Subscribe</h6>
+            <p className="text-sm text-gray-600 mb-4 dark:text-white">Get the latest news and articles to your inbox every update.</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
@@ -91,9 +91,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Area */}
+        {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
-          {/* Social Media Icons */}
+          {/* Social media icons */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             {/* GitHub */}
             <li className="ml-4">
@@ -106,7 +106,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyright */}
-          <div className="text-sm text-gray-600 mr-4">&copy; GSuiteDM. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4 dark:text-white">&copy; GSuiteDM. All rights reserved.</div>
         </div>
       </div>
     </footer>
