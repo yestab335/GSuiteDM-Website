@@ -4,11 +4,11 @@ import Link from "next/link"
 
 export default function Terms() {
   return (
-    <section className="relative">
+    <section className="relative dark:bg-black-600 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Privacy Policy Content */}
+        {/* Privacy policy content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          {/* Section Header */}
+          {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
               className="text-5xl md:text6xl font-extrabold leading-tighter tracking-tighter mb-4"
@@ -20,7 +20,7 @@ export default function Terms() {
 
           <div className="max-w-3xl mx-auto">
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -29,14 +29,14 @@ export default function Terms() {
               Effective as of June 01, 2024
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               Welcome to the GSuiteDM&apos;s Terms of Use agreement. For
               purposes of this agreement, “Site” refers to the Company&apos;s
               website, which can be accessed at{" "}
-              <Link href="/" className="text-blue-700 underline">
+              <Link href="/" className="text-blue-700 underline dark:text-blue-1000">
                 https://gsuitedm.netlify.app
               </Link>
               .
@@ -48,19 +48,19 @@ export default function Terms() {
               Service.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               The following Terms of Use apply when you view or use the Service
               via our website located at{" "}
-              <Link href="/" className="text-blue-700 underline">
+              <Link href="/" className="text-blue-700 underline dark:text-blue-1000">
                 https://gsuitedm.netlify.app
               </Link>
               .
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -75,20 +75,20 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               PRIVACY POLICY
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               The Company respects the privacy of its Service users. Please
               refer to the Company&apos;s Privacy Policy (found here:{" "}
-              <Link href="/privacy-policy" className="text-blue-700 underline">
+              <Link href="/privacy-policy" className="text-blue-700 underline dark:text-blue-1000">
                 https://gsuitedm.netlify.app/privacy-policy
               </Link>
               ) which explains how we collect, use, and disclose information
@@ -98,14 +98,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               ABOUT THE SERVICE
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -114,14 +114,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               REGISTRATION; RULES FOR USER CONDUCT AND USE OF THE SERVICE
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -137,14 +137,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               USE RESTRICTIONS
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -153,7 +153,7 @@ export default function Terms() {
               under any circumstances:
             </p>
             <ul
-              className={"text-xl text-gray-600 mb-8 list-decimal list-inside"}
+              className={"text-xl text-gray-600 mb-8 list-decimal list-inside dark:text-white"}
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -224,14 +224,14 @@ export default function Terms() {
             </ul>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               POSTING AND CONDUCT RESTRICTIONS
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -242,7 +242,7 @@ export default function Terms() {
               Service.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -252,7 +252,7 @@ export default function Terms() {
               from the Service at its sole discretion.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -262,7 +262,7 @@ export default function Terms() {
               constitutes a material breach of these Terms.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -270,7 +270,7 @@ export default function Terms() {
               Service, you agree as follows:
             </p>
             <ul
-              className={"text-xl text-gray-600 mb-8 list-decimal list-inside"}
+              className={"text-xl text-gray-600 mb-8 list-decimal list-inside dark:text-white"}
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -319,7 +319,7 @@ export default function Terms() {
               </li>
             </ul>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -330,7 +330,7 @@ export default function Terms() {
               or misuse of your User Content.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -341,14 +341,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               ONLINE CONTENT DISCLAIMER
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -359,7 +359,7 @@ export default function Terms() {
               for such content.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -375,7 +375,7 @@ export default function Terms() {
               to users.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -400,21 +400,21 @@ export default function Terms() {
               Terms of Use, please contact us{" "}
               <a
                 href="mailto:support@gsuitedm.com"
-                className="text-blue-700 underline"
+                className="text-blue-700 underline dark:text-blue-1000"
               >
                 support@gsuitedm.com
               </a>
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               LINKS TO OTHER SITES AND/OR MATERIALS
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -450,14 +450,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               COPYRIGHT COMPLAINTS AND COPYRIGHT AGENT
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -472,7 +472,7 @@ export default function Terms() {
               permissions.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -484,7 +484,7 @@ export default function Terms() {
               information in writing to the our designated copyright agent:
             </p>
             <ol
-              className={"text-xl text-gray-600 mb-8 list-decimal list-inside"}
+              className={"text-xl text-gray-600 mb-8 list-decimal list-inside dark:text-white"}
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -523,7 +523,7 @@ export default function Terms() {
               </li>
             </ol>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -534,28 +534,32 @@ export default function Terms() {
               User Content, you may send a counter-notice containing the
               following information to our copyright agent using the contact
               information set forth above:
-              <ol className={"list-decimal list-inside"}>
-                <li>Your physical or electronic signature;</li>
-                <li>
-                  A description of the content that has been removed and the
-                  location at which the content appeared before it was removed;
-                </li>
-                <li>
-                  A statement that you have a good faith belief that the content
-                  was removed as a result of mistake or a misidentification of
-                  the content; and
-                </li>
-                <li>
-                  Your name, address, telephone number, and email address, a
-                  statement that you consent to the jurisdiction of the federal
-                  court in the United States and a statement that you will
-                  accept service of process from the person who provided
-                  notification of the alleged infringement.
-                </li>
-              </ol>
             </p>
+            <ol
+              className={"text-xl text-gray-600 mb-8 list-decimal list-inside dark:text-white"}
+              data-aos="zoom-y-out"
+              data-aos-delay="150"
+            >
+              <li>Your physical or electronic signature;</li>
+              <li>
+                A description of the content that has been removed and the
+                location at which the content appeared before it was removed;
+              </li>
+              <li>
+                A statement that you have a good faith belief that the content
+                was removed as a result of mistake or a misidentification of
+                the content; and
+              </li>
+              <li>
+                Your name, address, telephone number, and email address, a
+                statement that you consent to the jurisdiction of the federal
+                court in the United States and a statement that you will
+                accept service of process from the person who provided
+                notification of the alleged infringement.
+              </li>
+            </ol>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -570,14 +574,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               LICENSE GRANT
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -595,14 +599,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               INTELLECTUAL PROPERTY
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -616,14 +620,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               EMAIL MAY NOT BE USED TO PROVIDE NOTICE
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -635,14 +639,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               USER CONSENT TO RECEIVE COMMUNICATIONS IN ELECTRONIC FORM
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -655,7 +659,7 @@ export default function Terms() {
               foregoing does not affect your non-waivable rights.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -666,14 +670,14 @@ export default function Terms() {
               sending an email to{" "}
               <a
                 href="mailto:support@gsuitedm.com"
-                className="text-blue-700 underline"
+                className="text-blue-700 underline dark:text-blue-1000"
               >
                 support@gsuitedm.com
               </a>
               .
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -682,14 +686,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               WARRANTY DISCLAIMER
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -709,14 +713,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               LIMITATION OF DAMAGES; RELEASE
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -737,7 +741,7 @@ export default function Terms() {
               DISCLAIMERS OF LIABILITY, SO THIS PROVISION MAY NOT APPLY TO YOU.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -750,7 +754,7 @@ export default function Terms() {
               such disputes.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -763,14 +767,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               MODIFICATION OF TERMS OF USE
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -792,14 +796,14 @@ export default function Terms() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               GENERAL TERMS
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -813,7 +817,7 @@ export default function Terms() {
               transfer or termination of this agreement.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -823,7 +827,7 @@ export default function Terms() {
               is permanently barred.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -833,7 +837,7 @@ export default function Terms() {
               provisions.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -845,7 +849,7 @@ export default function Terms() {
               unauthorized assignment or delegation by you is void.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -853,7 +857,7 @@ export default function Terms() {
               THE TERMS OF USE, AND WILL BE BOUND BY THESE TERMS AND CONDITIONS.
               YOU FURTHER ACKNOWLEDGE THAT THESE TERMS OF USE TOGETHER WITH THE
               PRIVACY POLICY AT{" "}
-              <Link href="/privacy-policy" className="text-blue-700 underline">
+              <Link href="/privacy-policy" className="text-blue-700 underline dark:text-blue-1000">
                 https://gsuitedm.netlify.app/privacy-policy
               </Link>{" "}
               REPRESENT THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT

@@ -4,11 +4,11 @@ import Link from "next/link"
 
 export default function PrivacyPolicy() {
   return (
-    <section className="relative">
+    <section className="relative dark:bg-black-600 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Privacy Policy Content */}
+        {/* Privacy policy content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          {/* Section Header */}
+          {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
               className="text-5xl md:text6xl font-extrabold leading-tighter tracking-tighter mb-4"
@@ -20,14 +20,14 @@ export default function PrivacyPolicy() {
 
           <div className="max-w-3xl mx-auto">
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               GSuiteDM PRIVACY POLICY
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -38,13 +38,13 @@ export default function PrivacyPolicy() {
               in making informed decisions when using our Service.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               For purposes of this Agreement, “Site” refers to the Company's
               website, which can be accessed at{" "}
-              <Link href="/" className="text-blue-700 underline">
+              <Link href="/" className="text-blue-700 underline dark:text-blue-1000">
                 https://gsuitedm.netlify.app
               </Link>
               .
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
               <br />
               By accessing our Site or our Service, you accept our Privacy
               Policy and Terms of Use (found here:{" "}
-              <Link href="/terms" className="text-blue-700 underline">
+              <Link href="/terms" className="text-blue-700 underline dark:text-blue-1000">
                 https://gsuitedm.netlify.app/terms
               </Link>
               ), and you consent to our collection, storage, use and disclosure
@@ -67,14 +67,14 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               I. INFORMATION WE COLLECT
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -90,14 +90,14 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-md text-gray-600 font-bold mb-8"
+              className="text-md text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               1. <em>Information collected via Firebase by Google</em>
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <ul
-              className={"list-disc list-inside text-xl text-gray-600 mb-8"}
+              className={"list-disc list-inside text-xl text-gray-600 mb-8 dark:text-white"}
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -133,7 +133,7 @@ export default function PrivacyPolicy() {
             </ul>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -145,7 +145,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-md text-gray-600 font-bold mb-8"
+              className="text-md text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -153,7 +153,7 @@ export default function PrivacyPolicy() {
               <em>Information you provide us by registering for an account</em>
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -167,14 +167,14 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-md text-gray-600 font-bold mb-8"
+              className="text-md text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               3. <em>Children's Privacy</em>
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -188,21 +188,21 @@ export default function PrivacyPolicy() {
               such information, please contact us at{" "}
               <a
                 href="mailto:support@gsuitedm.com"
-                className="text-blue-700 underline"
+                className="text-blue-700 underline dark:text-blue-1000"
               >
                 support@gsuitedm.com
               </a>
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
               II. HOW WE USE AND SHARE INFORMATION
             </p>
             <p
-              className="text-md text-gray-600 font-bold mb-8"
+              className="text-md text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -210,7 +210,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -229,7 +229,7 @@ export default function PrivacyPolicy() {
               support, and inform users about promotional offers.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -244,7 +244,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-md text-gray-600 font-bold mb-8"
+              className="text-md text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -252,7 +252,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -266,7 +266,7 @@ export default function PrivacyPolicy() {
               at our discretion.
             </p>
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -285,7 +285,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -293,7 +293,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -312,7 +312,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -320,7 +320,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -338,7 +338,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -346,7 +346,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -366,7 +366,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -374,7 +374,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -389,7 +389,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 font-bold mb-8"
+              className="text-xl text-gray-600 font-bold mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -397,7 +397,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
@@ -405,27 +405,27 @@ export default function PrivacyPolicy() {
               practices of this Site, please contact us by sending an email to{" "}
               <a
                 href="mailto:yestab335@gmail.com"
-                className="text-blue-700 underline"
+                className="text-blue-700 underline dark:text-blue-1000"
               >
                 yestab335@gmail.com
               </a>{" "}
               or{" "}
               <a
                 href="mailto:support@gsuitedm.com"
-                className="text-blue-700 underline"
+                className="text-blue-700 underline dark:text-blue-1000"
               >
                 support@gsuitedm.com
               </a>
               .
             </p>
 
-            {/* Foot Note */}
+            {/* Foot note */}
             <p
-              className="text-xl text-gray-600 mb-8"
+              className="text-xl text-gray-600 mb-8 dark:text-white"
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
-              Last Updated: This Privacy Policy was last updated on Sep 5, 2023.
+              Last Updated: This Privacy Policy was last updated on June 05, 2024.
             </p>
           </div>
 
