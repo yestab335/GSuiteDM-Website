@@ -1,25 +1,6 @@
 import VideoThumb from '@/public/images/hero-thumbnail.png'
 import ModalVideo from '@/components/ModalVideo'
 
-// function browser() {
-//   if (typeof window == 'undefined') {
-//     return 'Unknown'
-//   }
-
-//   const userAgent = window.navigator.userAgent
-//   const chromeLink = 'https://tinyurl.com/chrome-webstore-gsuitedm'
-//   const firefoxLink = 'https://google.com'
-//   const operaLink = 'https://google.com'
-
-//   if (userAgent.indexOf('Chrome') !== -1) {
-//     return chromeLink
-//   } else if (userAgent.indexOf('Firefox') !== -1) {
-//     return firefoxLink
-//   } else {
-//     return operaLink
-//   }
-// }
-
 export default function Hero() {
   return (
     <section className="relative dark:bg-black-600">
