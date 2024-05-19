@@ -22,6 +22,8 @@
   transition: all 0.3s;
   user-select: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   touch-action: manipulation;
 }
 
@@ -43,5 +45,18 @@
 @media (min-width: 768px) {
   .button {
     min-width: 170px;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .button:hover {
+    border-color: #3399ff;
+  }
+
+  .button:active {
+    border-color: #3399ff;
+    color: #3399ff;
+    fill: #3399ff;
   }
 }
