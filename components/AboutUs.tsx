@@ -1,8 +1,8 @@
 export default function AboutUs() {
   return (
-    <section className="relative">
+    <section className="relative dark:bg-black-600 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* About Us Content */}
+        {/* About us content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section Header */}
           <div className="text-center pb-12 md:pb-16">
@@ -10,7 +10,7 @@ export default function AboutUs() {
               About Us
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
+              <p className="text-xl text-gray-600 mb-8 dark:text-white" data-aos="zoom-y-out" data-aos-delay="150">
                 I am an independent person
               </p>
             </div>
