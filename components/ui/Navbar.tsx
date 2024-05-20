@@ -7,7 +7,7 @@ import MobileMenu from "./MobileMenu"
 export default function Header() {
   const [top, setTop] = useState<boolean>(true)
 
-  // Detect Whether User Has Scrolled The Page Down By 10px
+  // Detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
     window.pageYOffset > 10 ? setTop(false) : setTop(true)
   }
@@ -26,14 +26,14 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Site Branding */}
+          {/* Site branding */}
           <div className="shrink-0 mr-4">
             <Logo />
           </div>
 
-          {/* Desktop Top Navigation Bar */}
+          {/* Desktop top navigation bar */}
           <nav className="hidden md:flex md:grow">
-            {/* Desktop Sign In Links */}
+            {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link

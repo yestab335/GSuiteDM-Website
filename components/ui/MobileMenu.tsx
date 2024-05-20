@@ -8,7 +8,7 @@ export default function MobileMenu() {
   const trigger = useRef<HTMLButtonElement>(null)
   const mobileNav = useRef<HTMLDivElement>(null)
 
-  // Close The Mobile Menu On Click Outside
+  // Close the mobile menu on click outside
   useEffect(() => {
     const clickHandler = ({ target }: { target: EventTarget | null }): void => {
       if (!mobileNav.current || !trigger.current) {
@@ -26,7 +26,7 @@ export default function MobileMenu() {
     return () => document.removeEventListener('click', clickHandler)
   })
 
-  // Close The Mobile Menu If The `ESC` Key Is Pressed
+  // Clse the mobile menu if the 'ESC' key is pressend
   useEffect(() => {
     const keyHandler = ({ keyCode }: { keyCode: number }): void => {
       if (!mobileNavOpen || keyCode !== 27) {
@@ -42,7 +42,7 @@ export default function MobileMenu() {
 
   return (
     <div className="flex md:hidden">
-      {/* Hamburger Button */}
+      {/* Hamburger button */}
       <button
         ref={trigger}
         className={`hamburger ${mobileNavOpen && 'active'}`}
@@ -58,7 +58,7 @@ export default function MobileMenu() {
         </svg>
       </button>
 
-      {/* Mobile Navigation */}
+      {/* Mobile navigation */}
       <div ref={mobileNav}>
         <Transition
           show={mobileNavOpen}
